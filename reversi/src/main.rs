@@ -12,7 +12,6 @@ mod player;
 
 
 fn main() {
-    let content = fs::read_to_string("./src/art.txt").unwrap();
     let p1 = Human;
     let p2 = Human;
     let mut game = Game::new(p1, p2);
