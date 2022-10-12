@@ -15,14 +15,17 @@ impl Play for Human {
             println!("こまをおく、たてのかずをおしえてください");
             let mut input = String::new();
             io::stdin().read_line(&mut input).unwrap();
-            let y: Result<usize, _> = input.trim().parse();
-            let y = y.unwrap() as i8;
-
+            let y = match input.trim().parse::<i8>() {
+                Ok(v) => v,
+                Err(_) => continue,
+            };
             println!("こまをおく、よこのかずをおしえてください");
             let mut input = String::new();
             io::stdin().read_line(&mut input).unwrap();
-            let x: Result<usize, _> = input.trim().parse();
-            let x = x.unwrap() as i8;
+            let x = match input.trim().parse::<i8>() {
+                Ok(v) => v,
+                Err(_) => continue,
+            };
 
             let c = Coord{ 0: x - 1, 1: y - 1 };
             for k in moves.iter(){
