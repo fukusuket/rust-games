@@ -2,6 +2,10 @@
 
 A collection of games for personal Rust study.
 
+## Game list
+
+- reversi
+- ushi
 
 ## Acknowledgements
 The games in this repository were created with reference to the following repositories. 
