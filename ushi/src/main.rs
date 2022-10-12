@@ -1,5 +1,4 @@
 use std::{fs, io};
-use std::process::Command;
 use rand::Rng;
 use regex::Regex;
 
