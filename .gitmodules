@@ -1,6 +1,3 @@
-[submodule "ushi/cows"]
-	path = ushi/cows
-	url = https://github.com/sindresorhus/cows.git
 [submodule "ushi/ushi"]
 	path = ushi/ushi
 	url = https://github.com/fukusuket/cows.git
