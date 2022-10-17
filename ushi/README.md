@@ -15,7 +15,7 @@ Press enter key.
 
 ## Output
 
-then this programs shows cows randomly
+then this program shows cows randomly
 
 ## Acknowledgements
 The games in this repository were created with reference to the following repositories.
